@@ -1,1 +1,1 @@
-WSO2 Stream Processor v${project.version}
+WSO2 Analytics Dashboard v${project.version}

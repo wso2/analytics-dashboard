@@ -1,5 +1,5 @@
 <!--
-  ~  Copyright (c) 2017, WSO2 Inc. (http://wso2.com) All Rights Reserved.
+  ~  Copyright (c) 2019, WSO2 Inc. (http://wso2.com) All Rights Reserved.
   ~
   ~  WSO2 Inc. licenses this file to you under the Apache License,
   ~  Version 2.0 (the "License"); you may not use this file except
@@ -16,7 +16,7 @@
   ~  under the License.
   -->
 
-WSO2 Stream Processor
+WSO2 Analytics Dashboards
 ======================
 
 ---
@@ -29,15 +29,15 @@ WSO2 Stream Processor
 ---
 #### Introduction ####
 
-[WSO2 Stream Processor](https://wso2.com/analytics) (WSO2 SP) is an open source stream processing platform. It can ingest data from Kafka, HTTP requests, message brokers. You can query data stream using a “[Streaming SQL](https://wso2.com/library/articles/2018/02/stream-processing-101-from-sql-to-streaming-sql-in-ten-minutes/)” language. With just two commodity servers it can provide [high availability](https://docs.wso2.com/display/SP400/Minimum+High+Availability+%28HA%29+Deployment) and can handle 100K+ TPS [throughput](https://docs.wso2.com/display/SP400/Performance+Analysis+Results). It can scale up to millions of TPS on top of Kafka.
+[WSO2 Analatics Processor](https://wso2.com/analytics) (WSO2 SP) is an open source stream processing platform. It can ingest data from Kafka, HTTP requests, message brokers. You can query data stream using a “[Streaming SQL](https://wso2.com/library/articles/2018/02/stream-processing-101-from-sql-to-streaming-sql-in-ten-minutes/)” language. With just two commodity servers it can provide [high availability](https://docs.wso2.com/display/SP400/Minimum+High+Availability+%28HA%29+Deployment) and can handle 100K+ TPS [throughput](https://docs.wso2.com/display/SP400/Performance+Analysis+Results). It can scale up to millions of TPS on top of Kafka.
 
 #### Download ####
 
-Please download the latest stable WSO2 Stream Processor release from [https://wso2.com/analytics-and-stream-processing/install](https://wso2.com/analytics-and-stream-processing/install)
+Please download the latest stable WSO2 Analytics Dashboard release from [https://wso2.com/analytics-and-stream-processing/install](https://wso2.com/analytics-and-stream-processing/install)
 
 #### How to Run ####
 
-Please refer to our quick start guide on how to start and run the WSO2 Stream Processor.
+Please refer to our quick start guide on how to start and run the WSO2 Analytics Dashboard.
 https://docs.wso2.com/display/SP4xx/Quick+Start+Guide
 
 #### Documentation ####
@@ -53,4 +53,4 @@ For more details and to take advantage of this unique opportunity please visit h
 
 #### Reporting Issues  ####
 
-We encourage you to report issues, documentation faults and feature requests regarding WSO2 SP through the [WSO2 SP Issue Tracker](https://github.com/wso2/product-sp/issues).
+We encourage you to report issues, documentation faults and feature requests regarding WSO2 AD through the [WSO2 AD Issue Tracker](https://github.com/wso2/product-sp/issues).
