@@ -34,7 +34,6 @@ header {
 header img {
     padding: 11px 15px 0 24px;
     float: left;
-
 }
 
 header h1 {
@@ -51,117 +50,72 @@ header h1 {
     padding: 15px;
 }
 
-.main-content h1 {
-    padding: 0;
-    margin: 0;
+h2, h3, h4 {
+    color: #424242 !important;
+    page-break-inside: avoid;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #424242 !important;
+    page-break-inside: avoid;
+    text-decoration: none;
     font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #424242 !important;
+    page-break-inside: avoid;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: #616161 !important;
+    page-break-inside: avoid;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #424242;
+}
+
+p, li {
+    margin-bottom: 10px;
+    color: #616161;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #616161;
+}
+
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+td, th {
+    padding: 10px;
 }
 
 @page {
     margin: 1in
-}
-
-p {
-    margin-bottom: 0.1in;
-    direction: ltr;
-    color: #616161 !important;
-    line-height: 120%;
-    text-align: left;
-    orphans: 2;
-    widows: 2;
-    text-decoration: none
-}
-
-p.western {
-    font-size: 11pt;
-    font-style: normal;
-    font-weight: normal
-}
-
-h1 {
-    margin-top: 0.28in;
-    margin-bottom: 0.08in;
-    direction: ltr;
-    color: #212121 !important;
-    line-height: 115%;
-    text-align: left;
-    page-break-inside: avoid;
-    orphans: 2;
-    widows: 2;
-    text-decoration: none
-}
-
-h1 font {
-    color: #212121 !important;
-}
-
-h1.western {
-    font-size: 20pt;
-    font-style: normal;
-    font-weight: normal
-}
-
-h2 {
-    margin-top: 0.25in;
-    direction: ltr;
-    color: #424242 !important;
-    line-height: 115%;
-    text-align: left;
-    page-break-inside: avoid;
-    orphans: 2;
-    widows: 2;
-    text-decoration: none
-}
-
-h2 font {
-    color: #424242 !important;
-}
-
-h2.western {
-    font-size: 16pt;
-    font-style: normal;
-    font-weight: normal
-}
-
-h3 {
-    margin-top: 0.22in;
-    margin-bottom: 0.06in;
-    direction: ltr;
-    color: #616161;
-    line-height: 115%;
-    text-align: left;
-    page-break-inside: avoid;
-    orphans: 2;
-    widows: 2;
-    text-decoration: none
-}
-
-h3 font,
-h4 font {
-    color: #616161 !important;
-}
-
-h3.western {
-    font-style: normal;
-    font-weight: normal
-}
-
-h4 {
-    margin-top: 0.19in;
-    margin-bottom: 0.06in;
-    direction: ltr;
-    color: #616161;
-    line-height: 115%;
-    text-align: left;
-    page-break-inside: avoid;
-    orphans: 2;
-    widows: 2;
-    text-decoration: none
-}
-
-h4.western {
-    font-style: normal;
-    font-weight: normal
 }
 
 .policies-landing h1 {
