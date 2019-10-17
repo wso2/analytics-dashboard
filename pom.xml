@@ -663,7 +663,7 @@
 
         <carbon.analytics.version>2.1.33</carbon.analytics.version>
         <siddhi.version>4.5.9</siddhi.version>
-        <carbon.dashboards.version>4.0.67</carbon.dashboards.version>
+        <carbon.dashboards.version>4.0.71</carbon.dashboards.version>
 
         <carbon.analytics-common.version>6.1.32</carbon.analytics-common.version>
         <!-- Maven plugins -->
