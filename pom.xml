@@ -28,7 +28,7 @@
     <groupId>org.wso2.ei</groupId>
     <artifactId>wso2-analytics-dashboard-parent</artifactId>
     <packaging>pom</packaging>
-    <version>4.5.1-SNAPSHOT</version>
+    <version>4.5.1-rc1</version>
     <name>WSO2 Analytics Dashboard - Parent</name>
 
     <url>http://wso2.org</url>
@@ -37,7 +37,7 @@
         <url>https://github.com/wso2/analytics-dashboard.git</url>
         <developerConnection>scm:git:https://github.com/wso2/analytics-dashboard.git</developerConnection>
         <connection>scm:git:https://github.com/wso2/analytics-dashboard.git</connection>
-        <tag>HEAD</tag>
+        <tag>v4.5.1-rc1</tag>
     </scm>
 
     <dependencyManagement>
