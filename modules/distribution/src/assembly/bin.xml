@@ -50,13 +50,23 @@
         </fileSet>
 
         <fileSet>
-            <directory>carbon-home/conf/dashboard</directory>
-            <outputDirectory>conf/dashboard</outputDirectory>
+            <directory>carbon-home/conf/portal</directory>
+            <outputDirectory>conf/portal</outputDirectory>
             <fileMode>644</fileMode>
         </fileSet>
         <fileSet>
-            <directory>carbon-home/conf/transports/dashboard</directory>
-            <outputDirectory>wso2/dashboard/conf/transports</outputDirectory>
+            <directory>carbon-home/conf/monitor</directory>
+            <outputDirectory>conf/monitor</outputDirectory>
+            <fileMode>644</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>carbon-home/conf/transports/monitor</directory>
+            <outputDirectory>wso2/monitor/conf/transports</outputDirectory>
+            <fileMode>644</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>carbon-home/conf/transports/portal</directory>
+            <outputDirectory>wso2/portal/conf/transports</outputDirectory>
             <fileMode>644</fileMode>
         </fileSet>
 
@@ -138,7 +148,12 @@
         <!--Privacy policy app -->
         <fileSet>
             <directory>src/policies/</directory>
-            <outputDirectory>wso2/dashboard/deployment/web-ui-apps/policies</outputDirectory>
+            <outputDirectory>wso2/portal/deployment/web-ui-apps/policies</outputDirectory>
+            <fileMode>644</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>src/policies/</directory>
+            <outputDirectory>wso2/monitor/deployment/web-ui-apps/policies</outputDirectory>
             <fileMode>644</fileMode>
         </fileSet>
     </fileSets>
@@ -182,21 +197,40 @@
         <!--TODO: Workaround for issue trustStore and keystore certificate system properties
         fixed-->
         <file>
-            <source>carbon-home/runtime/dashboard/carbon.sh</source>
-            <outputDirectory>wso2/dashboard/bin/</outputDirectory>
+            <source>carbon-home/runtime/portal/carbon.sh</source>
+            <outputDirectory>wso2/portal/bin/</outputDirectory>
             <filtered>true</filtered>
             <fileMode>755</fileMode>
         </file>
         <file>
-            <source>carbon-home/runtime/dashboard/carbon.bat</source>
-            <outputDirectory>wso2/dashboard/bin/</outputDirectory>
+            <source>carbon-home/runtime/portal/carbon.bat</source>
+            <outputDirectory>wso2/portal/bin/</outputDirectory>
             <filtered>true</filtered>
             <fileMode>755</fileMode>
         </file>
 
         <file>
-            <source>carbon-home/conf/dashboard/log4j2.xml</source>
-            <outputDirectory>conf/dashboard/</outputDirectory>
+            <source>carbon-home/conf/portal/log4j2.xml</source>
+            <outputDirectory>conf/portal/</outputDirectory>
+            <filtered>true</filtered>
+            <fileMode>644</fileMode>
+        </file>
+        <file>
+            <source>carbon-home/runtime/monitor/carbon.sh</source>
+            <outputDirectory>wso2/monitor/bin/</outputDirectory>
+            <filtered>true</filtered>
+            <fileMode>755</fileMode>
+        </file>
+        <file>
+            <source>carbon-home/runtime/monitor/carbon.bat</source>
+            <outputDirectory>wso2/monitor/bin/</outputDirectory>
+            <filtered>true</filtered>
+            <fileMode>755</fileMode>
+        </file>
+
+        <file>
+            <source>carbon-home/conf/monitor/log4j2.xml</source>
+            <outputDirectory>conf/monitor/</outputDirectory>
             <filtered>true</filtered>
             <fileMode>644</fileMode>
         </file>
