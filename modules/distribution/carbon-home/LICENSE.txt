@@ -179,9 +179,9 @@ org.wso2.carbon.sp.distributed.resource.core_2.1.22.jar                         
 org.wso2.carbon.sp.jobmanager.core_2.1.22.jar                                    bundle         apache2   19016
 org.wso2.carbon.sp.metrics.core_2.1.22.jar                                       bundle         apache2   18980
 org.wso2.carbon.status.dashboard.core_2.1.22.jar                                 bundle         apache2   18988
-org.wso2.carbon.stream.processor.common_2.1.22.jar                               bundle         apache2   19018
-org.wso2.carbon.stream.processor.core_2.1.22.jar                                 bundle         apache2   19022
-org.wso2.carbon.stream.processor.statistics_2.1.22.jar                           bundle         apache2   19017
+org.wso2.carbon.streaming.integrator.common_2.1.22.jar                               bundle         apache2   19018
+org.wso2.carbon.streaming.integrator.core_2.1.22.jar                                 bundle         apache2   19022
+org.wso2.carbon.streaming.integrator.statistics_2.1.22.jar                           bundle         apache2   19017
 org.wso2.carbon.tools.core-5.2.8.jar                                            bundle         apache2   18122
 org.wso2.carbon.uiserver_1.0.2.jar                                              bundle         apache2   18985
 org.wso2.carbon.utils_2.0.8.jar                                                 bundle         apache2   18126
