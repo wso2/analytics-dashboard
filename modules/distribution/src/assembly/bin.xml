@@ -39,6 +39,15 @@
                 <exclude>**/*.ipr</exclude>
                 <exclude>**/*.iwr</exclude>
                 <exclude>**/*.eclipse</exclude>
+                <!--        Excluded due to JAVA 11 incompatibility        -->
+                <exclude>bin/ciphertool.sh</exclude>
+                <exclude>bin/ciphertool.bat</exclude>
+                <exclude>bin/icf-provider.bat</exclude>
+                <exclude>bin/icf-provider.sh</exclude>
+                <exclude>bin/jartobundle.sh</exclude>
+                <exclude>bin/jartobundle.bat</exclude>
+                <exclude>bin/osgi-lib.bat</exclude>
+                <exclude>bin/osgi-lib.sh</exclude>
             </excludes>
         </fileSet>
         <fileSet>
@@ -154,6 +163,15 @@
         <fileSet>
             <directory>src/policies/</directory>
             <outputDirectory>wso2/monitor/deployment/web-ui-apps/policies</outputDirectory>
+            <fileMode>644</fileMode>
+        </fileSet>
+
+        <fileSet>
+            <directory>target/java-dependencies</directory>
+            <outputDirectory>bin/bootstrap</outputDirectory>
+            <includes>
+                <include>**/*.jar</include>
+            </includes>
             <fileMode>644</fileMode>
         </fileSet>
     </fileSets>
