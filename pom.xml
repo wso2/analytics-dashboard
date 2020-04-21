@@ -679,7 +679,7 @@
         </pluginManagement>
     </build>
     <properties>
-        <carbon.analytics.version>3.0.34</carbon.analytics.version>
+        <carbon.analytics.version>3.0.35</carbon.analytics.version>
         <status.dashboard.feature.version>2.2.0</status.dashboard.feature.version>
         <siddhi.version>5.1.12</siddhi.version>
         <carbon.dashboards.version>4.1.0</carbon.dashboards.version>
